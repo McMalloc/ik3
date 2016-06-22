@@ -1,0 +1,590 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.photo-credits {
+    position: fixed;
+    top: 30px;
+    right: 6px;
+    font-size: 12px;
+}
+
+.photo-credits a:hover {
+    background: none;
+}
+
+.keyvisual-copy {
+    z-index: 0;
+    position: fixed;
+    width: 75%;
+    left: 50%;
+}
+
+.site-title {
+    margin: 0 0 0 -37.5%;
+    top: 0;
+    font-size: 11vw;
+    color: white;
+    white-space: nowrap;
+    overflow: visible;
+    letter-spacing: 4vw;
+    font-style: italic;
+    font-weight: 300;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-shadow: 2px 2px 0px rgba(0,0,0,1);
+}
+
+.sub {
+    font-size: 3vw;
+    font-family: "EB Garamond", serif;
+    top: 15vw;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 2.5vw;
+}
+
+.teaser p {
+    font-size: 1.3vw;
+    line-height: 1.7vw;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    padding: 0;
+    margin: 0 0 1em 0;
+}
+
+.player {
+    margin:20%;
+}
+.teaser a {
+    color: white;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+
+.teaser a:hover {
+    color: white;
+}
+
+.cta h3 {
+    margin-bottom: 0.1vw;
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-weight: 700;
+    margin-top: 1em;
+    letter-spacing: 0.3em;
+}
+
+.cta h3:first-child {
+    margin-top: 0;
+}
+
+.album-cover {
+    width: 100%;
+    box-shadow: 5px 5px 12px black;
+    border-radius: 5px;
+}
+
+.cta {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAE0lEQVQIW2NkYGCoB2IGRiijAQAKGgGBFpYZJAAAAABJRU5ErkJggg==) repeat;
+    padding: 0.5vw;
+    border-radius: 5px;
+    -webkit-transition: height 0.4s;
+    transition: height 0.4s;
+}
+
+.teaser {
+    margin: 18vw 0 0 -37.5%;
+    top: 0;
+    font-size: 2vw;
+    color: white;
+    overflow: visible;
+    letter-spacing: 0.1rem;
+    padding: 3px;
+    text-shadow: 2px 2px 0px rgba(0,0,0,1);
+}
+
+.teaser em {
+    font-style: normal;
+    color: #bbbbbb;
+}
+
+.gigtable {
+    font-family: "PT Sans", sans-serif;
+    width: 100%;
+    margin: 3em auto;
+    /*max-width: 700px;*/
+}
+
+section {
+    margin: auto;
+}
+
+p {
+    margin-top: 24px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    hyphens: auto;
+    line-height: 24px;
+}
+
+.social-buttons {
+    word-wrap: normal;
+    text-align: right;
+}
+
+.social-buttons a:hover {
+    cursor: pointer;
+}
+
+#bandbiographie p:first-of-type:first-letter{
+    height: 50px;
+    font-size: 50px;
+    margin-top: 8px;
+    margin-right: 6px;
+    line-height:30px;
+    position:relative;
+    float:left;
+    display:block;
+    font-family: "EB Garamond", sans-serif;
+}
+
+em {
+    font-style: italic;
+}
+
+html {
+    font-size: 100%;
+    }
+body {
+    font-size: 1.0em;
+    font-family: "PT Sans", sans-serif;
+    color: #544c4b;
+    z-index: 100;
+}
+
+h1, h2 {
+    font-family: "EB Garamond", serif;
+    margin: 8px 0 4px 0;
+    font-style: normal;
+    font-weight: 400;
+    position: relative;
+    line-height: 1.25;
+}
+
+h2 {
+    color: #9d555b;
+    text-align: center;
+    padding: 4px;
+    font-size: 48px;
+    width: 100%;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+h3 {
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.keyvisual {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -10;
+}
+
+.opaque {
+    background-color: rgba(255,255,255,1.0);
+    margin-top: 650px;
+    box-shadow: 0 -3px 5px rgba(0,0,0,0.3);
+    padding-bottom: 50px;
+    z-index: 100;
+    position: relative;
+}
+
+.contact textarea {
+    width: 100%;
+    height: 200px;
+}
+
+.pinned-bar {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    z-index: 1000;
+    -webkit-transition: width 2s, height 1s;
+    transition: width 2s, height 1s;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.15);
+}
+
+nav {
+    top: 0;
+    background-color: white;
+    border-bottom: 1px dotted #ccc;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+nav ul li {
+    margin: 0;
+    display: inline;
+    margin-right: 12px;
+    border: none;
+}
+
+nav a, nav a:hover {
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+nav a:hover {
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+
+.anchor {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    margin-top: -40px;
+    font-size: 16px;
+    font-family: "PT Sans", sans-serif;
+}
+
+.anchor::before {
+    content: "#"
+}
+
+.inset-col:hover {
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+}
+
+.inset-col {
+    padding: 8px;
+    margin: 8px;
+    border-radius: 4px;
+    transition: box-shadow 0.4s;
+}
+
+footer {
+    border-top: 1px solid #fff;
+    bottom: 0;
+    text-align: left;
+    display: table-row;
+    height: 2em;
+    vertical-align: middle;
+    background-color: #9d555b;
+    color: white;
+    word-wrap: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #544c4b;
+    border-bottom: 1px dotted #544c4b;
+    margin-top: 12px;
+    padding: 3px;
+    transition: color 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
+    border-radius: 2px;
+}
+
+a:hover {
+    background-color: white;
+    color: #9d555b;
+}
+
+footer a {
+    color: white;
+    border-bottom: 1px dotted #fff;
+}
+
+footer a:hover {
+    background-color: white;
+    color: #9d555b;
+}
+
+button a {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+button a:hover {
+    background-color: inherit;
+    color: inherit;
+}
+
+#dummy-player {
+    height: 600px;
+    width: 300px;
+    background-color: #317fcf;
+}
+
+.hide-on-print {}
+
+.wpcf7-form textarea,
+.wpcf7-form input:not([type="submit"]) {
+    width: 100%;
+    font-weight: 400;
+}
+
+.wpcf7-form textarea {
+    height: 10em;
+}
+
+.wpcf7-form input[type="submit"] {
+    float: right;
+}
+
+.wpcf7-form p {
+    font-weight: 700;
+}
+
+.form-info {
+    font-style: italic;
+    font-weight: 400;
+    color: #999999;
+    letter-spacing: 0.1rem;
+    font-size: 90%;
+}
+
+.show-past-btn {
+    float: right;
+}
+
+.to-hide {
+    display: none;
+}
+
+.subscribe-rss {
+    float: left;
+}
+
+.gigpress-info {
+    display: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+button, input[type="submit"] {
+    font-size: 13px;
+}
+
+#player-frame {
+    border: 0;
+    width: 50%;
+    height: 80px;
+}
+
+/*TOOLTIP*/
+
+.tooltip {
+    position: fixed;
+    color: #cccccc;
+    background: #000000;
+    padding: 0 6px;
+    bottom: 60px;
+    left: 60px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 6px;
+    opacity: 0;
+    transition: opacity 1s;
+    cursor: default;
+}
+
+.tooltip:after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -8px;
+    width: 0; height: 0;
+    border-top: 8px solid #000000;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/* small as mobile */
+@media (max-width: 400px) {
+
+}
+
+@media (max-width: 550px) {
+    p {
+        font-size: 80%;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+@media (max-width: 850px) {
+
+}
+
+@media (max-width: 1000px) {
+    .title {
+        font-family: "EB Garamond", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        max-width: 500px;
+        text-transform: uppercase;
+        color: #9d555b;
+    }
+}
+@media (max-width: 1200px) {
+    .title {
+        font-family: "EB Garamond", sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        max-width: 500px;
+        text-transform: uppercase;
+        color: #9d555b;
+    }
+}
+@media (max-width: 900px) {
+    .player {
+        width: 180px;
+    }
+}
+
+@media (max-width: 770px) {
+    .pinned-bar, table {
+        font-size: 80%;
+    }
+    .photo-credits {
+        display: none;
+    }
+    button {
+        height: 25px;
+        padding: 0 4px;
+        line-height: 25px;
+        float: right;
+    }
+    button:after {
+        content: "";
+        clear: both;
+    }
+    .player {
+        margin: 0;
+        height: 150px;
+    }
+    #player-frame {
+        width: 100%;
+    }
+
+}
+@media (max-width: 384px) {
+    table, button {
+        font-size: 70%;
+    }
+    .player-container {
+        padding: 0;
+    }
+
+}
